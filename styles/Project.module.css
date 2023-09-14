@@ -1,0 +1,151 @@
+.container {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-left: 10rem;
+}
+.heading {
+  font-family: var(--headFont);
+  color: var(--primary);
+  font-size: 3rem;
+}
+.tagline {
+  font-family: var(--bodyFont2);
+  color: var(--secondary);
+  font-size: 1.75rem;
+  margin-bottom: 5%;
+}
+.projectContainer {
+  display: flex;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
+/* .projectContainer:hover {
+  cursor: pointer;
+} */
+.links{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 15%;
+  margin-bottom: 5%;
+  gap: 10px;
+}
+.links a{
+  color: var(--primary);
+  font-size: 1.25rem;
+  font-family: var(--bodyFont2);
+}
+.imageWrapper {
+  position: relative;
+  width: 30rem;
+  height: 20rem;
+}
+
+.imageWrapper img {
+  object-fit: cover;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  transition: 0.5s ease;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+}
+.imageWrapper:hover > .overlay {
+  opacity: 0;
+}
+.textRight {
+  width: 50%;
+  text-align: right;
+}
+.text {
+  width: 50%;
+  text-align: right;
+}
+.projectHeader {
+  margin-bottom: 2%;
+  width: 60%;
+}
+.projectHeader h2 {
+  font-family: var(--headFont);
+  color: var(--primary);
+}
+.projectHeader h2 {
+  margin: 1%;
+  font-size: 1.75rem;
+}
+.projectHeader p {
+  font-size: 1.25rem;
+}
+
+.projectDescription {
+  border-radius: 10px;
+  width: 80%;
+  padding: 5%;
+  background-color: var(--fourthUp);
+  transform: translateX(-25%);
+}
+.otherProjectContainer {
+  background-color: var(--fourthUp);
+  width: 65%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  padding: 2%;
+  min-height: 5rem;
+  margin-left: 15%;
+}
+.otherHeading {
+  margin-bottom: 1%;
+  font-family: var(--headFont);
+  color: var(--primary);
+}
+.otherTag {
+  margin-bottom: 1%;
+  font-family: var(--bodyFont2);
+  color: var(--secondary);
+}
+@media (max-width: 992px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  .imageWrapper {
+    width: 25rem;
+  }
+
+  .overlay {
+    opacity: 0;
+  }
+  .text,
+  .projectHeader,
+  .projectDescription {
+    width: 100%;
+    text-align: center;
+  }
+  .projectDescription {
+    transform: translateX(0%);
+    background-color: var(--fourth);
+  }
+  .otherProjectContainer
+  {
+    margin-bottom: 10%;
+  }
+}
