@@ -45,7 +45,7 @@ const Navbar = () => {
               data-aos-delay="100"
               data-aos-once="true"
             >
-              About Me
+              About me
             </a>
           </li>
           <li>
