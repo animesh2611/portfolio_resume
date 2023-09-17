@@ -94,7 +94,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1QjESauNbM0izPsrh_JSGYqJywQgUTHdr/view?usp=sharing"
+              href="https://drive.google.com/file/d/1j-WFNnWwbosAZnE_z26GAA8Y_k_Nd-sP/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className={styles.hover_underline_animation}
