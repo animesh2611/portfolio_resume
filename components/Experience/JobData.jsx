@@ -3,12 +3,12 @@ const JobData = [
   
     {
       id: "1",
-      companyName: "Reflections Info Systems Pvt. Ltd.",
-      jobTitle: "Data Science Intern",
+      companyName: "SuperHR.ai",
+      jobTitle: "UI/UX Design and Product Management",
       logoSrc:
         "https://res.cloudinary.com/dpjf6btln/image/upload/v1655265573/1625126018698_k4jcvt.jpg",
-      desc: "Worked on car damage detection.",
-      date:"June 2022 - Aug 2022"
+      desc: "Collaborating on UI/UX design for SUPERHR’s website using Figma.Contributing to Agile development, prioritizing user-centric features",
+      date:"Aug 2023- Current"
     },
   
     {
